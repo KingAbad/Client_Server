@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
         if (n < 0) 
              error("ERROR reading from socket");
         printf("Server: %s",buffer);
-        int i = strncmp("Bye, i love you" , buffer , 3);
+        int i = strncmp("Alright bye bye <3" , buffer , 3);
         if(i == 0)
                break;
     }
